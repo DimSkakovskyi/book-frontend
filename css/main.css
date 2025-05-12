@@ -1,0 +1,105 @@
+/* ===== Базові стилі ===== */
+body {
+  background-color: #EAEFF8; /* Свіжий синій */
+  color: #4C5B7A;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79D0KEwA.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tel {
+  font-family: 'PT Sans', sans-serif;
+}
+
+a {
+  color: #A4BDFA; /* Малібу */
+  text-decoration: none;
+}
+a:hover {
+  color: #4C5B7A;
+  text-decoration: underline;
+}
+
+/* ===== Шапка ===== */
+.header-top {
+  background-color: #B2C9FF; /* Небесно-бузковий */
+  padding: 20px 0;
+  color: #ffffff;
+}
+.header-top h5 {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+.header-top small {
+  color: #4C5B7A;
+}
+
+/* ===== Меню ===== */
+.navbar-dark.bg-dark {
+  background-color: #4C5B7A !important;
+}
+.navbar-dark .nav-link {
+  color: #D5E1FB;
+}
+.navbar-dark .nav-link:hover {
+  color: #ffffff;
+}
+
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;
+}
+
+
+/* ===== Новини / блоки ===== */
+.news-block {
+  background-color: #D5E1FB; /* Георгіївська хмара */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* ===== Картки книг ===== */
+.card {
+  background-color: #E1E8FA;
+  border: none;
+}
+.card-title {
+  color: #4C5B7A;
+}
+.btn-primary {
+  background-color: #B2C9FF;
+  border-color: #B2C9FF;
+}
+.btn-primary:hover {
+  background-color: #A4BDFA;
+  border-color: #A4BDFA;
+}
+
+/* ===== Футер ===== */
+.footer {
+  background-color: #4C5B7A;
+  padding: 20px 0;
+  font-size: 0.9em;
+  color: #EAFFF8;
+}
+
+.footer a {
+  color: #D5E1FB;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
